@@ -1,0 +1,44 @@
+/*start-common styles*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+.main-container{
+    display: flex;
+}
+img{
+    max-width: 100%;
+}
+/*end-common styles*/
+.login-page{
+    align-items: center;
+}
+.login-bg{
+    flex-basis: 85%;
+    height: 100vh;
+    background:url("./../data/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.login-form{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.form-field{
+    margin-top: 15px;
+}
+.form-field input{
+    width: calci(100%-50px);
+    padding: 16px 2px 16px 10px;
+    font-size: 14px;
+    border: 1px saddlebrown;
+}
+.app-button{
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    background-color:burlywood;
+}
